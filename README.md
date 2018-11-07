@@ -29,9 +29,13 @@ Newrelic charges on the basis of number of instances pushing data to an applicat
 
 # How to Contribute
 
-If you don't see the keycloak version that you want to use with new relic, instructions will be available soon.
-- See the content of Dockerfile
-- Replace edit keycloak version
+If you don't see the keycloak version that you want to use with new relic, follow the following guidelines.
+- Fork [this](https://github.com/hassantariq-carameltech/keycloak-newrelic) repo.
+- See the content of Dockerfile.
+- Replace keycloak version with the version of your choice.
 - Edit New Relic Java Agent version (make sure that keycloak version and java agent version are compatible)
+- Commit and Push your changes.
+- Make a pull request.
+- Your commit will be merged manually with respective tag in both docker image and github (tag addition via pull request is not avaiable on github yet 😃 ).
 
 
